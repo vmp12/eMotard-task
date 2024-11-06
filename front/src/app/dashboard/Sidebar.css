@@ -1,0 +1,46 @@
+.sidebar {
+    width: 250px;
+    background-color: #5c67f2;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  /* Apply styles to list items */
+ul .text a {
+  color: #17493f; /* Change text color */
+  font-family: 'Arial', sans-serif; /* Change font style */
+  font-size: 16px; /* Change font size */
+  text-decoration: none; /* Remove underline */
+
+  /* Add hover effects */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+ul .text a:hover {
+  color: #184c3a; /* Color when hovered */
+  font-weight: bold; /* Bold on hover */
+}
+
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    margin: 15px 0;
+    cursor: pointer;
+  }
+  
+  .sidebar-footer {
+    margin-top: auto;
+    font-size: 14px;
+  }
+  
